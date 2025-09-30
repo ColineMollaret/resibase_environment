@@ -2,7 +2,7 @@ name: "base"
 channels:
   - conda-forge
   - gimli
-  - nodefaults
+#  - nodefaults
 dependencies:
 # - add packages here
 # - one per line
