@@ -23,5 +23,4 @@ dependencies:
   - itsdangerous
   - werkzeug
   - gunicorn
-  - reda
 prefix: "/opt/conda"
