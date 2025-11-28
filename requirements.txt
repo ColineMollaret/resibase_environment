@@ -1,0 +1,19 @@
+# packages required for the resibase project
+pygimli>=1.5.0
+dash
+plotly
+pandas
+openpyxl
+seaborn
+psycopg2
+pyproj
+matplotlib==3.7.0
+jupyterlab>=4,<5
+ipywidgets
+
+# all other packages, mainly those required for renkulab.io (i.e. for a JupyterLab environment)
+jupyter-server-proxy
+werkzeug==2.2.1
+itsdangerous
+werkzeug
+gunicorn
