@@ -1,0 +1,22 @@
+# packages required for the resibase project
+dash
+plotly
+pandas
+openpyxl
+seaborn
+psycopg2
+pyproj
+matplotlib==3.7.0
+jupyterlab>=4,<5
+ipywidgets
+pygimli>=1.5.0
+numpy<2  #  A module that was compiled using NumPy 1.x cannot be run in NumPy 2.2.6 as it may crash
+
+
+# all other packages, mainly those required for renkulab.io (i.e. for a JupyterLab environment)
+jupyter-server-proxy
+werkzeug==2.2.1
+itsdangerous
+werkzeug
+gunicorn
+flask_sqlalchemy
